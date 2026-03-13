@@ -1,68 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Volquetes Capital Federal | Alquiler de Volquetes CABA</title>
+<title>Volquetes en Capital Federal | VVC Volquetes</title>
 
-<meta name="description" content="Alquiler de volquetes en Capital Federal. Servicio rápido con más de 40 años de experiencia. Llame al 11-5306-3347.">
+<meta name="description" content="Más de 40 años brindando servicio de volquetes en Capital Federal. Llame ahora al 11-5306-3347.">
+  
+<meta name="keywords" content="volquetes capital federal, alquiler de volquetes caba, volquetes buenos aires, volquetes capital">
 
-<link rel="canonical" href="https://volquetescapitalfederal.com.ar">
-
+<link rel="canonical" href="https://vvc.com.ar">
+  
 <style>
 
 body{
 font-family:Arial, Helvetica, sans-serif;
-text-align:center;
 margin:0;
 background:white;
+text-align:center;
 }
 
-header{
+/* BORDE VOLQUETE */
+
+.borde-volquete{
+height:22px;
+background: repeating-linear-gradient(
+45deg,
+#d60000,
+#d60000 20px,
+white 20px,
+white 40px
+);
+}
+
+/* BARRA TELEFONO FIJA */
+
+.barra-llamar{
+position:sticky;
+top:0;
 background:#d60000;
 color:white;
-padding:40px 20px;
+font-size:20px;
+font-weight:bold;
+padding:12px;
+z-index:999;
+}
+
+.barra-llamar a{
+color:white;
+text-decoration:none;
+}
+
+/* HEADER */
+
+header{
+background:white;
+padding:30px;
+border-bottom:3px solid black;
+}
+
+.logo{
+width:260px;
 }
 
 h1{
-font-size:38px;
-margin:10px;
+font-size:34px;
+margin-top:10px;
 }
 
-.telefono{
-font-size:34px;
+.telefono-grande{
+font-size:38px;
 font-weight:bold;
-margin:20px;
+margin:25px;
+}
+
+/* BOTONES */
+
+.botones{
+margin:30px;
 }
 
 .boton{
 display:inline-block;
 padding:18px 40px;
-font-size:22px;
+font-size:20px;
 font-weight:bold;
-border-radius:8px;
+border-radius:10px;
+text-decoration:none;
+margin:10px;
+box-shadow:0 5px 0 rgba(0,0,0,0.3);
+}
+
+.llamar{
 background:#d60000;
 color:white;
-text-decoration:none;
-margin:15px;
+font-size:26px;
+padding:22px 55px;
 }
 
 .whatsapp{
 background:#25D366;
+color:white;
 }
 
+/* SECCIONES */
+
 .seccion{
+padding:40px 20px;
 max-width:900px;
 margin:auto;
-padding:40px 20px;
 }
+
+/* MAPA */
+
+.mapa iframe{
+width:100%;
+height:400px;
+border:0;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
 
 footer{
 background:#111;
 color:white;
 padding:25px;
+margin-top:40px;
+}
+
+/* BOTONES FLOTANTES */
+
+.telefono-flotante{
+position:fixed;
+bottom:90px;
+right:20px;
+background:#d60000;
+color:white;
+font-size:28px;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+box-shadow:0 4px 12px rgba(0,0,0,0.4);
+}
+
+.whatsapp-flotante{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:30px;
+width:65px;
+height:65px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+box-shadow:0 4px 12px rgba(0,0,0,0.4);
 }
 
 </style>
@@ -71,50 +175,86 @@ padding:25px;
 
 <body>
 
+<div class="borde-volquete"></div>
+
+<div class="barra-llamar">
+<a href="tel:1153063347">📞 LLAMAR AHORA 11-5306-3347</a>
+</div>
+
 <header>
+
+<img src="logo.png" class="logo" alt="Volquetes Valiño Castro - Volquetes en Capital Federal">
 
 <h1>Volquetes en Capital Federal</h1>
 
-<div class="telefono">
+<div class="telefono-grande">
 📞 11-5306-3347
 </div>
 
-<a href="tel:1153063347" class="boton">Llamar ahora</a>
+<div class="botones">
+
+<a href="tel:1153063347" class="boton llamar">
+LLAMAR AHORA
+</a>
 
 <a href="https://wa.me/541153063347" class="boton whatsapp">
 WhatsApp
 </a>
 
+</div>
+
 </header>
 
 <section class="seccion">
 
-<h2>Alquiler de volquetes en CABA</h2>
+<h2>Volquetes Valiño Castro</h2>
 
 <p>
-Si necesita <b>volquetes en Capital Federal</b>, Valiño Castro cuenta con
-más de <b>40 años de experiencia</b> brindando servicio a obras,
-reformas y limpiezas en toda la ciudad.
+Más de <b>40 años brindando servicio de volquetes en Capital Federal</b>.
 </p>
 
-<p>
-Entrega rápida de volquetes en todos los barrios de
-<b>Capital Federal (CABA)</b>.
-</p>
+</section>
 
-<p>
-Para solicitar un volquete llame al
-<b>11-5306-3347</b>.
-</p>
+<section class="seccion mapa">
+
+<h2>Ubicación</h2>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.814269231672!2d-58.35680702452301!3d-34.63413355910463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335e39a9232cd%3A0xb8cb0c5dc260d93d!2sVali%C3%B1o%20Castro%20Volquetes!5e0!3m2!1ses!2sar!4v1773187869640!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </section>
 
 <footer>
 
-Volquetes Valiño Castro  
-Servicio de volquetes en Capital Federal
+Volquetes Valiño Castro - Servicio de volquetes en Capital Federal (CABA)
+Tel: 11-5306-3347
 
 </footer>
 
+<a href="tel:1153063347" class="telefono-flotante">
+📞
+</a>
+
+<a href="https://wa.me/541153063347" class="whatsapp-flotante">
+💬
+</a>
+
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "LocalBusiness",
+"name": "Volquetes Valiño Castro",
+"telephone": "+54 11 5306-3347",
+"areaServed": "Capital Federal",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Buenos Aires",
+"addressCountry": "AR"
+},
+"url": "https://vvc.com.ar"
+}
+</script>
+
 </body>
+
 </html>
+
