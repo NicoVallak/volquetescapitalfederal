@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://volquetescapitalfederal.com.ar/sitemap.xml
