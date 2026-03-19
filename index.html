@@ -15,14 +15,28 @@
 <link rel="canonical" href="https://volquetescapitalfederal.com.ar/">
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18007136455">
-</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18007136455"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-18007136455');
+</script>
+
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18007136455/JArPCPKY0IocEMexvIpD',
+    'event_callback': callback
+  });
+  return false;
+}
 </script>
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -196,7 +210,7 @@ box-shadow:0 4px 12px rgba(0,0,0,0.4);
 <div class="borde-volquete"></div>
 
 <div class="barra-llamar">
-<a href="tel:1153063347">📞 LLAMAR AHORA 11-5306-3347</a>
+<a href="tel:1153063347" onclick="return gtag_report_conversion('tel:1153063347');">📞 LLAMAR AHORA 11-5306-3347</a>
 </div>
 
 <header>
@@ -211,7 +225,7 @@ box-shadow:0 4px 12px rgba(0,0,0,0.4);
 
 <div class="botones">
 
-<a href="tel:1153063347" class="boton llamar">
+<a href="tel:1153063347" class="boton llamar" onclick="return gtag_report_conversion('tel:1153063347');">
 LLAMAR AHORA
 </a>
 
@@ -241,7 +255,7 @@ Servicio de alquiler de volquetes en barrios como Palermo, Caballito, Belgrano, 
 
 <h2>Ubicación</h2>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.814269231672!2d-58.35680702452301!3d-34.63413355910463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335e39a9232cd%3A0xb8cb0c5dc260d93d!2sVali%C3%B1o%20Castro%20Volquetes!5e0!3m2!1ses!2sar!4v1773187869640!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.814269231672!2d-58.35680702452301!3d-34.63413355910463!2m3!1f0!2f0!3f0!2m3!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335e39a9232cd%3A0xb8cb0c5dc260d93d!2sVali%C3%B1o%20Castro%20Volquetes!5e0!3m2!1ses!2sar!4v1773187869640!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </section>
 
@@ -252,7 +266,7 @@ Tel: 11-5306-3347
 
 </footer>
 
-<a href="tel:1153063347" class="telefono-flotante">
+<a href="tel:1153063347" class="telefono-flotante" onclick="return gtag_report_conversion('tel:1153063347');">
 📞
 </a>
 
